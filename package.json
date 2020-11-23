@@ -1,7 +1,26 @@
 {
-  "name": "backend",
+  "name": "gs20d2-backend",
+  "description": "Second challengeof GoStack 2020 from Rocketseat",
+  "contributors": [
+    {
+      "name": "Leonardo Vinicius Maciel",
+      "email": "leo037br@hotmail.com",
+      "url": "https://github.com/Sephyros"
+    }
+  ],
+  "bugs": "https://github.com/Sephyros/GoStack2020D02/issues",
+  "homepage": "https://github.com/Sephyros/GoStack2020D02",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sephyros/GoStack2020D02.git"
+  },
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.0"
+  },
   "main": "src/server.js",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
